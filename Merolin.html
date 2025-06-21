@@ -3,26 +3,135 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Merolin Bio</title>
+  <title>Lecturer Landing Page</title>
   <style>
     body {
-      background-color: #e0f7fa; /* light cyan */
-      font-family: Arial, sans-serif;
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #f0f4f8, #d9eaf7);
+      color: #333;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 60px auto;
+      background: #fff;
+      border-radius: 15px;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+      padding: 40px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .profile {
+      flex: 1 1 300px;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .profile img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid #007acc;
+    }
+
+    .info {
+      flex: 2 1 400px;
+      padding: 20px;
+    }
+
+    h1 {
+      font-size: 32px;
+      margin: 10px 0;
+      color: #007acc;
+    }
+
+    h2 {
+      font-size: 20px;
+      color: #555;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+      color: #444;
+    }
+
+    .socials {
+      margin-top: 20px;
+    }
+
+    .socials a {
+      margin-right: 15px;
+      text-decoration: none;
+      font-size: 20px;
+      color: #007acc;
+      transition: color 0.3s ease;
+    }
+
+    .socials a:hover {
+      color: #005f99;
+    }
+
+    .contact {
+      margin-top: 20px;
+      font-size: 15px;
+    }
+
+    .contact a {
+      color: #007acc;
+      text-decoration: none;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    @media screen and (max-width: 768px) {
+      .container {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .info {
+        padding: 0;
+      }
     }
   </style>
+</head>
+<body>
 
   <div class="container">
-    <h1>Bio of Merolin Thoras</h1>
-    <p class="bio">
-      I'm a Lecturer at yenepoya college passionate about teacing. 
-      I love working on projects that involve my bio.
-
+    <div class="profile">
+      
+    </div>
+    <div class="info">
+      <h1>Merolin Thoras</h1>
+      <h2>Lecturer of Computer Science</h2>
+      <p>
+        Passionate educator with over 10 years of experience in higher education. 
+        I specialize in Artificial Intelligence, Data Science, and Educational Technology. 
+        I aim to inspire students to think critically and apply knowledge to real-world problems.
+      </p>
+      <div class="socials">
+        <a href="#" target="_blank">🔗 LinkedIn</a>
+        <a href="#" target="_blank">📘 ResearchGate</a>
+        <a href="#" target="_blank">🌐 Website</a>
       </div>
-    </p>
-    
+      <div class="contact">
+        📧 <a href="mailto:jane.doe@example.edu">mero.doe@example.edu</a><br />
+        📍 Yenepoya College, Mangalore
+      </div>
+    </div>
+  </div>
 
 </body>
 </html>
 
+      
    
   
